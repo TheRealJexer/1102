@@ -14,6 +14,6 @@ for count in range(start, max(numList)):
         # otherwise
         print(f"{count} is missing")    
 
-    """Does the same thing that lines 10 to 15 does just less lines"""
+    """Does the same thing that lines 10 to 15 does just less lines."""
     if count not in numList:
         print(f"{count} is missing")
